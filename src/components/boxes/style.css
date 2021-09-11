@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.box {
+    background-color: blue;
+    width: 24%;
+    height: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
